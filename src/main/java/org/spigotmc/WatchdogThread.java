@@ -52,7 +52,7 @@ public class WatchdogThread extends Thread
         instance.lastTick = System.currentTimeMillis();
     }
 
-    public static void doStop()
+   /* public static void doStop()
     {
         if ( instance != null )
         {
@@ -93,7 +93,7 @@ public class WatchdogThread extends Thread
                                     + " Entities: " + world.loadedEntityList.size() + " Tile Entities: " + world.loadedTileEntityList.size());
                     log.log(Level.SEVERE, "  Entities Last Tick: " + world.entitiesTicked);
                     log.log(Level.SEVERE, "  Tiles Last Tick: " + world.tilesTicked);
-                }
+                }*/
 
                 log.log(Level.SEVERE, "------------------------------");
 
