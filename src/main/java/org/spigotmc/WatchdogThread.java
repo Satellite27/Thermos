@@ -94,7 +94,7 @@ public class WatchdogThread extends Thread
                     log.log(Level.SEVERE, "  Entities Last Tick: " + world.entitiesTicked);
                     log.log(Level.SEVERE, "  Tiles Last Tick: " + world.tilesTicked);
                 }*/
-
+/*
                 log.log(Level.SEVERE, "------------------------------");
 
                 if (MinecraftServer.getServer().cauldronConfig.dumpChunksOnDeadlock.getValue())
@@ -118,7 +118,7 @@ public class WatchdogThread extends Thread
                     CauldronHooks.dumpHeap(file, true);
                     log.log(Level.SEVERE, "Writing complete");
                     log.log(Level.SEVERE, "------------------------------");
-                }
+                }*/
                 // Cauldron end
                 
                 log.log(Level.SEVERE, "------------------------------");
